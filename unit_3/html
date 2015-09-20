@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MI the-DUET</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+	<h1>Mi the-Duet</h1>
+		<img src="images/spring.jpg" alt="installation spring art">
+
+		<h2 id="CREAT LIKE A GOD, COMMAND LIKE A KING, WORK LIKE A SLAVE">CREAT LIKE A GOD, COMMAND LIKE A KING, WORK LIKE A SLAVE</h2>
+		
+		<p>Every readymade object has its own narrative, therefore, a different way to see through as it becomes an art discourse.</p>
+		<ul>
+			<li>Germany</li>
+			<li>USA</li>
+			<li>Taiwan</li>
+		</ul>
+
+
+
+
+
+</body>
+
+</html>
