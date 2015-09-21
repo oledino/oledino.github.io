@@ -1,24 +1,24 @@
-h1, {
-	font-family: Georgia, serif;
+/*body {
+	background-image: url("images/spring.jpg");
+}*/
+
+header {
+	font-family: Lucida console, monospace;
 	font-size: 36px;
-	font-weight: 900;
+	font-weight: bold;
+	color: black;
+}
+
+#slogan{
+	background-image: url("images/spring.jpg");
+	font-family: Arial, sans-serif;
+	font-size: 54px;
 	font-style: italic;
-	color:r gba(0,0,0,0.4);
-}
-h2, {
-	font-family: Verdana, sans-serif;
-	font-size: 68px;
 	text-align: right;
-	color: rgb(255,255,255);
+	color: orange;
 }
 
-#creat{
-	background: url("images/spring.jpg") no-repeat center center fixed;
-	background-size: cover;
-	padding: 120px;
-
-}
-
-p, {
-	text-align: center;
+p, ul {
+	font-family: Times, sans-serif;
+	font-size: 20px;
 }
