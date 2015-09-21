@@ -1,24 +1,23 @@
-/*body {
-	background-image: url("images/spring.jpg");
-}*/
-
-header {
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: Times, sans-serif;
+	font-size: 20px;
+}
+h1{
+	font-family: Arial, sans-serif;
+	font-size: 54px;
+	font-style: italic;
+	color: orange;
+}
+.logo {
 	font-family: Lucida console, monospace;
 	font-size: 36px;
 	font-weight: bold;
 	color: black;
 }
-
-#slogan{
-/*	background-image: url("images/spring.jpg");
-*/	font-family: Arial, sans-serif;
-	font-size: 54px;
-	font-style: italic;
-	text-align: right;
-	color: orange;
-}
-
-p, ul {
-	font-family: Times, sans-serif;
-	font-size: 20px;
+#splash {
+	background-image: url("../images/spring.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:90vh;
 }
