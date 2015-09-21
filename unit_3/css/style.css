@@ -1,22 +1,24 @@
-
-
 h1, {
 	font-family: Georgia, serif;
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 900;
+	font-style: italic;
 	color:r gba(0,0,0,0.4);
 }
 h2, {
 	font-family: Verdana, sans-serif;
-	font-size: 48px;
-	text-align: left;
+	font-size: 68px;
+	text-align: right;
 	color: rgb(255,255,255);
 }
 
 #creat{
 	background: url("images/spring.jpg") no-repeat center center fixed;
 	background-size: cover;
-	padding:120;
+	padding: 120px;
 
 }
-img{}
+
+p, {
+	text-align: center;
+}
