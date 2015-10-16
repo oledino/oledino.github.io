@@ -54,7 +54,7 @@ button a:hover{
 #audio {
 	padding-top: 45%;
     padding-left: 15%;
-    position: fixed;
+    position: absolute;
     z-index: auto;  
 }
 
