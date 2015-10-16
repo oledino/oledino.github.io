@@ -2,37 +2,68 @@
 <html>
 <head>
 	<title>Autechre</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header>
 		<a href="#">
-				<img src="images/logo.png" alt="Autechre logo">
+			<img src="images/logo.png" alt="Autechre logo">
 		</a>
 	</header>
-	<main>
-		<section id="splash">
-				<!-- <img src="images/ae1.jpg" alt="AE Graphic"> -->
-				<a class="round-button"></a>
-
-<!-- 				<div class="round-button">P</div>	 -->
-		</section>
-		<section id="video">
-			<img src="images/concert.jpg" alt="Autechre concert">
-		</section>
-	</main>
-
+	<section id="splash">
+		<div id="audio">
+		 	<a class="round-button"></a>
+		</div>
+	</section>
+	<section>
+		<video 	width="100%"
+				src="Pink_Floyd.mp4" 
+				poster="images/concert.jpg"
+				preload
+				controls
+				loop>
+		</video>
+	</section>
 	<footer>
-<!-- 	<div class="wrap clearfix"> -->
-		<nav id="menu">
-			<a href="#">Us</a>
-			<a href="#">Music</a>
-			<a href="#">Tour</a>
-			<a href="#">Video</a>
-			<a href="#">Gallery</a>
-			<a href="#">Photo</a>
-			<a href="#">Artical</a>
-		</nav>
+		<div class="wrap-clearfix">
+			<div>
+				 <button class="nav">
+					<a href="#">Us</a>
+				</button>
+			</div>
+			<div>
+			 	<button class="nav">
+					<a href="#">Music</a>
+				</button>
+			</div>
+			<div>
+				<button class="nav">
+					<a href="#">Tour</a>
+				</button>
+			</div>
+			<div>
+				<button class="nav">
+					<a href="#">Video</a>
+				</button>
+			</div>
+			<div>
+				<button class="nav">
+					<a href="#">Gallery</a>
+				</button>
+			</div>
+			<div>
+				<button class="nav">
+					<a href="#">Photo</a>
+				</button>
+			</div>
+			<div>
+				<button class="nav">
+					<a href="#">Artical</a>
+				</button>
+			</div>
+		</div>
+		
 	</footer>
 </body>
 </html>

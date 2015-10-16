@@ -1,56 +1,60 @@
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:600);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:700);
 
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
 	background-color: black;
-	color: white;
-	font-family: 'Josefin Slab', serif;
+	font-family:'Oxygen', sans-serif;
+	font-size: 16px;
 	height:100%;
 }
+
 header, footer {
 	position:fixed;
-	left:0;
 	width:100%;
-	height:3em;
-	background-color: black;
-	background-color: rgba(255,255,255,.5);
+	height:5em;
+	background-color: #202121;
 }
 
 header  {
 	top:0;
-	margin-bottom: 3em;
+	padding-left: 10px;
+	padding-top: 10px;
 }
+
 footer {
 	bottom:0;
-	font-size: 1em;
+	padding-right: 20px;
+	text-align: right;
+	padding-top: 10px;
 }
-section#splash {
+
+
+video {
+	margin-bottom: 100px;
+}
+
+
+button a{
+	color:#202121;
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+button a:hover{
+	color:white;
+}
+
+#splash {
 	background: url("../images/ae1.jpg") no-repeat center top fixed;
-	background-size: 100%;
+	background-size: 70%%;
 	height:90vh;
 }
 
-}
-#header {
-	margin-left: 1em;
-}
-
-#graphic {
-	/*background: url("../images/ae1.jpg") no-repeat center top fixed;
-	background-size: 80%;
-	height:80vh;*/
-/*	padding:100px 0;*/
-/*	margin-top: 25vh;*/
-}
-#video img{
-	width: 100%;
-	height: 90vh;
-}
-#menu a{
-	color: white;
-/*	display:inline-block;*/
-	text-decoration: none;
+#audio {
+	padding-top: 45%;
+    padding-left: 15%;
+    position: fixed;
 }
 
 .round-button {
@@ -60,23 +64,52 @@ section#splash {
     line-height:50px;
     border: 3px solid gray;
     border-radius: 50%;
-/*    color:#f5f5f5;*/
 	color:gray;
     text-align:center;
     text-decoration:none;
     background: rgba(255,0,0,.5);
     font-size:20px;
     font-weight:bold;
-    margin-top: 500px;
-    margin-left:150px;
-/*    position: fixed;*/
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
-.clearfix:after { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
+
+/*.clearfix:after {
+	visibility:  hidden;
+	display: block;
+	content: "";
 	clear: both;
+	height:0;
+}
+
+.nav {
+	width:50px;
+	margin: 5px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	float:right;
+	border-bottom-style: dotted;
+	border-width: 1px;
+	border-color: white;
+	text-align: center;
+}*/
+
+
+.clearfix:after {
+	visibility:  hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height:0;
+}
+
+.nav {
+	display: block;
+	margin:5px;
+	float: right;
+	border-radius: 100px;
+	border: 1px dotted white;
+	background-color: transparent;
+	text-align: center;
+	width:50px;
+	height:50px;
 }
