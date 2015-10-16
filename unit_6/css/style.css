@@ -55,6 +55,7 @@ button a:hover{
 	padding-top: 45%;
     padding-left: 15%;
     position: fixed;
+    z-index: auto;  
 }
 
 .round-button {
@@ -70,7 +71,8 @@ button a:hover{
     background: rgba(255,0,0,.5);
     font-size:20px;
     font-weight:bold;
-    cursor: pointer;   
+    cursor: pointer;
+     
 }
 
 /*.clearfix:after {
@@ -107,7 +109,7 @@ button a:hover{
 	margin:5px;
 	float: right;
 	border-radius: 100px;
-	border: 1px dotted white;
+	border: 1px dotted #c0c0c0;
 	background-color: transparent;
 	text-align: center;
 	width:50px;
