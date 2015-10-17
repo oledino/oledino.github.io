@@ -1,20 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:700);
-
 * { margin:0; padding:0; box-sizing:border-box; }
+
+html, body {
+	height:100%;
+}
 
 body {
 	background-color: black;
 	font-family:'Oxygen', sans-serif;
 	font-size: 16px;
-	height:100%;
 }
 
 header, footer {
 	position:fixed;
+	z-index: 2;
 	width:100%;
 	height:5em;
 	background-color: #202121;
+/*	background-color: transparent;*/
 }
+
+
 
 header  {
 	top:0;
@@ -31,7 +37,9 @@ footer {
 
 
 video {
-	margin-bottom: 100px;
+	padding-bottom: 8%;
+	position: absolute;
+	z-index: auto;
 }
 
 
@@ -45,17 +53,21 @@ button a:hover{
 	color:white;
 }
 
-#splash {
+.splash {
 	background: url("../images/ae1.jpg") no-repeat center top fixed;
-	background-size: 70%%;
-	height:90vh;
+	background-size: 70%;
+	height:100%;
+}
+
+.music-video {
+	height: 100%;
+	background-color:black;
 }
 
 #audio {
-	padding-top: 45%;
-    padding-left: 15%;
-    position: absolute;
-    z-index: auto;  
+	padding-top: 40%;
+    padding-left: 20%;
+    position: fixed;
 }
 
 .round-button {
@@ -74,27 +86,6 @@ button a:hover{
     cursor: pointer;
      
 }
-
-/*.clearfix:after {
-	visibility:  hidden;
-	display: block;
-	content: "";
-	clear: both;
-	height:0;
-}
-
-.nav {
-	width:50px;
-	margin: 5px;
-	padding-top: 10px;
-	padding-bottom: 5px;
-	float:right;
-	border-bottom-style: dotted;
-	border-width: 1px;
-	border-color: white;
-	text-align: center;
-}*/
-
 
 .clearfix:after {
 	visibility:  hidden;
