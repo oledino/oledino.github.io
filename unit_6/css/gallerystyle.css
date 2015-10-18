@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:700);
 * { margin:0; padding:0; box-sizing:border-box; }
 
+html, body {
+  height: 100%;
+}
 body {
   background-color: black;
   font-family:'Oxygen', sans-serif;
@@ -43,11 +46,9 @@ button a:hover{
 
 
 #container {
-/*  width: 1000px;*/
   width: 100%;
   overflow: hidden;
   margin: 300px auto;
-/*  background: white;*/
 }
 
 .clearfix:after {
@@ -77,23 +78,22 @@ button a:hover{
   background-size: 50%;
   position: fixed;
   max-width: 100%;
-/*  padding: 20px;*/
   margin-top: 100px;
+
 }
 
 .photobanner {
     height: 14.563em;
     width: 221.875em;
-/*      width: 100%;*/
-/*    margin-bottom: 80px;*/
+
 }
 /*keyframe animations*/
 .first {
-    -webkit-animation: bannermove 50s linear infinite;
-       -moz-animation: bannermove 50s linear infinite;
-        -ms-animation: bannermove 50s linear infinite;
-         -o-animation: bannermove 50s linear infinite;
-            animation: bannermove 50s linear infinite;
+    -webkit-animation: bannermove 60s linear infinite;
+       -moz-animation: bannermove 60s linear infinite;
+        -ms-animation: bannermove 60s linear infinite;
+         -o-animation: bannermove 60s linear infinite;
+            animation: bannermove 60s linear infinite;
 }
  
  @keyframes "bannermove" {

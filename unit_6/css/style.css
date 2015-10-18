@@ -66,8 +66,7 @@ button a:hover{
 
 .music-video {
 	height: 100%;
-	padding:120px 0 50px;
-	background-color: black;
+	display: block;
 }
 
 .round-button {
