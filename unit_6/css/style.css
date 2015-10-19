@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:700);
 * { margin:0; padding:0; box-sizing:border-box; }
 
-html, body {
+html, body{
 	height:100%;
 }
 
@@ -11,7 +11,7 @@ body {
 	font-size: 16px;
 }
 
-header, footer {
+header {
 	position:fixed;
 	z-index: 2;
 	width:100%;
@@ -27,7 +27,6 @@ header  {
 }
 
 footer {
-	bottom:0;
 	padding-right: 30px;
 	text-align: right;
 	padding-top: 10px;
@@ -35,7 +34,7 @@ footer {
 
 
 video {
-	position: absolute;
+	position: relative;
 	z-index: auto;
 }
 
@@ -74,7 +73,6 @@ button a:hover{
 }
 
 .music-video {
-	height: 100%;
 	display: block;
 }
 
