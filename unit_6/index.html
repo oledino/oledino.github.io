@@ -4,6 +4,11 @@
 	<title>Autechre</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript">
+		function playSound(soundfile) {
+			document.getElementById("dummy").innerHTML="<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+		}
+	</script>
 </head>
 <body>
 	<header>
@@ -14,7 +19,7 @@
 	
 	<div class="splash">
 		<div id="audio">
-		 		<a class="round-button"></a>
+		 		<a class="round-button" onclick="playSound(test.mp3);"></a>
 		</div>
 	</div>
 
