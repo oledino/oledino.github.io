@@ -17,9 +17,7 @@ header, footer {
 	width:100%;
 	height:5em;
 	background-color: #202121;
-/*	background-color: transparent;*/
 }
-
 
 
 header  {
@@ -30,7 +28,7 @@ header  {
 
 footer {
 	bottom:0;
-	padding-right: 20px;
+	padding-right: 30px;
 	text-align: right;
 	padding-top: 10px;
 }
@@ -64,11 +62,6 @@ button a:hover{
 	height:100%;
 }
 
-.music-video {
-	height: 100%;
-	display: block;
-}
-
 .round-button {
 	display:inline-block;
 	width:50px;
@@ -78,6 +71,11 @@ button a:hover{
     border-radius: 50%;
     background: rgba(255,0,0,.5);
     cursor: pointer;
+}
+
+.music-video {
+	height: 100%;
+	display: block;
 }
 
 .clearfix:after {
