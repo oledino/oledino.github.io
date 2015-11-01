@@ -264,7 +264,7 @@ div #home-more p{
 	
 }
 
-@media only screen and (max-device-width: 320px){ 
+@media only screen and (max-device-width: 480px){ 
 
    /* //iPhone 6 and iPhone 6+ portrait and landscape*/
    	#navbar {
