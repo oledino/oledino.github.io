@@ -19,7 +19,6 @@ body {
   	/*background: url("../images/body-image.jpg") no-repeat center center fixed;
   	background-attachment: fixed;
   	background-size: cover;*/
-	height: 100%;
 	margin: 0;
   	padding: 0;
   	background-color: white;
@@ -55,31 +54,33 @@ img {
 
 #navs {
 	width: 100%;
-	height: 200px;
 	margin: auto;
 	display: block;
-	background-color: white;
-
+/*	background-color: red;*/
 }
 
 #navbar {
-  	display: table;
-	width: 100%;
-	height: 100px;
+  	width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+  	background: red;
 }
-
 .box {
-  display: table-cell;
-  width: 20%;
-  font-family: 'Lato', sans-serif;
+  	background: #444b5d;
+	margin: 0;
+	padding: 10px;
+	width:20%;
+	font-family: 'Lato', sans-serif;
   	font-weight: 300;
-  	letter-spacing: 0.5px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 5em;
+	letter-spacing: 0.5px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 3em;
 }
   
-.menu1 {
+/*.menu1 {
   background: #444b5d;
 }
 .menu2 {
@@ -93,7 +94,7 @@ img {
 }
 .menu5 {
   background: #444b5d;
-}
+}*/
 
 
 #logobar {
@@ -102,7 +103,6 @@ img {
   	height: 100px;
   	margin: 0;
 	display: block;
-	position: fixed;
 }
 
 
@@ -176,7 +176,7 @@ img {
 #contanier {
 	background-color: #fff;
 	/*background-color: #fff;*/
-/*	background-color: yellow;*/
+/*	background-color: black;*/
 	width:100%;
 	height: 600px;
 	display: block;
@@ -222,7 +222,7 @@ div #home-more {
 
 div #home-more p{
 	margin: 0;
-    color: rgba(256, 256, 256, 0.6);
+    color: rgba(256, 256, 256, 0.8);
     font-family: 'Lato', sans-serif;
   	font-weight: 300;
 	text-transform: uppercase;
@@ -236,7 +236,11 @@ div #home-more p{
 
 @media only screen and (max-width: 800px) {
 	#navbar {
-		display:none;
+	/*	display:none;*/
+		display: -webkit-box;
+		display: -moz-box;
+		-webkit-box-orient: vertical;
+		-moz-box-orient: vertical;
 	}
 	#slider {
 		display:none;
@@ -250,26 +254,64 @@ div #home-more p{
 	}
 	
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 800px) {
 	#navbar {
-		display:none;
+	width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+  	background: red;
 	}
-	#slider {
-		display:none;
-	}
-	.center-title {
-		color:#eb7260;
-		margin-top: 100px;
-	}
-	
+
+  .box {
+	 /* display: table-cell;
+	  text-align: center;
+	  vertical-align: middle;
+	  line-height: 5em;*/
+	  background: #444b5d;
+	  font-family: 'Lato', sans-serif;
+	  font-weight: 300;
+	  letter-spacing: 0.5px;
+      text-align: center;
+      border-bottom: 0.5px dotted rgba(256,256,256,0.5);
+      border-color: white;
+	  margin: 0;
+	  padding: 10px;
+      width:100%;
+}
+  
 }
 
 @media only screen and (max-device-width: 480px){ 
 
    /* //iPhone 6 and iPhone 6+ portrait and landscape*/
    	#navbar {
-		display:none;
+	width: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	-webkit-box-orient: vertical;
+	-moz-box-orient: vertical;
+  	background: red;
 	}
+
+  .box {
+	 /* display: table-cell;
+	  text-align: center;
+	  vertical-align: middle;
+	  line-height: 5em;*/
+	  background: #444b5d;
+	  margin: 0;
+	  padding: 30px;
+      width:100%;
+	  font-family: 'Lato', sans-serif;
+	  font-weight: 300;
+	  letter-spacing: 0.5px;
+	  border-bottom: 0.5px dotted rgba(256,256,256,0.3);
+      text-align: center;
+      border-bottom: 1px dotted white;
+      border-color: white;
+}
 	#slider {
 		display:none;
 	}
@@ -288,17 +330,14 @@ div #home-more p{
 /*	background-color: black;*/
 	width:100%;
 	height: 350px;
+	display: block;
 	margin: 0;
 	text-align: center;
 	vertical-align: center;
 	}
+
+
 }
-
-
-
-
-
-
 
 
 
