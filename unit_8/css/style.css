@@ -24,7 +24,7 @@ body {
   	background-color: white;
   	display: block;
   	font-size: 16px;
-  	overflow: hidden;
+/*  	overflow: hidden;*/
 }
 
 footer {
@@ -235,18 +235,16 @@ div #home-more p{
 	#navbar {
 		display:none;
 	}
-	#slider {
-		display:none;
-	}
 	.center-title {
 		color:#eb7260;
-		margin-top: 0;
+		margin-top: 200px;
 	}
 	#slider {
-		margin-top: 0;
-
+		margin-top: 200px;
 	}
-	
+	#contanier {
+		height: 500px;
+	}
 
 @media only screen and (max-width: 320px) {
 	#navbar {
@@ -256,6 +254,8 @@ div #home-more p{
 		display:none;
 	}
 	.center-title {
+		font-size: 2em;
+  		line-height: 1.5em;
 		color:#eb7260;
 		margin-top: 0;
 	}
@@ -263,8 +263,13 @@ div #home-more p{
 		display:none;
 	}
 	#contanier {
-		height: 400px;
-
+		height: 350px;
+	}
+	div #home-more {
+		height: 2.5em;
+	}
+	div #home-more p {
+		font-size: 0.8em;
 	}
 	
 }
