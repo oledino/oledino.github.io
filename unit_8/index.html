@@ -1,61 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ishu-Chen</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
+	<title>Ishu-Chen</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
-
 <body>
-	<div id="wrap">
-		<div id="navs">
-			<div id="navbar">   
-			  	<div class="box menu1">
-			    	<a href="#">HE</a>
-			    </div>   
-			    <div class="box menu2">
-			      	<a href="#">PHTOGRAPHIC</a>
-			    </div>   
-			    <div class="box menu3">
-			      	<a href="#">CALLIGRAPHY</a>
-			    </div>
-			    <div class="box menu4">
-			       	<a href="#">PAINTING</a>
-			    </div>
-			    <div class="box menu5">
-			       	<a href="#">THOUGHT</a>
-			    </div>
-			</div>
-
-			<div id="logobar">
-				<div id="logo">
-					<a href="#">
-						<img src="images/logo.jpg" alt="ishu-logo">
-					</a>
-				</div>
-				<div id="mobile-nav">
-			     	<div class="menu-btn" id="menu-btn">
-					<div></div>
-					<span></span>
-					<span></span>
-					<span></span>
-				    </div>
-				</div>
-				<div id="webname">
-					<p>Ishu Chen Art Adventure</p>
-				</div>
-			</div>
-		</div>			
-		<div id="contanier" class="swiper-frame">
-			<div id="slider">
-			<a href="#">
-				 <img src="images/homeswipe2.svg" alt="homeswipe">
-			</a>
-			</div>
-			<div class="center-title">
-			<p>Creation is a pleasant thing to express yourself, like calligraphy is the path to your deep soul.</p>
+<header>
+	<a href="#"><img src="images/logo.jpg" alt="ishu-logo"></a>
+	<div class="mobile-nav">
+		<div class="menu-btn" id="menu-btn">
+			<div></div>
+			<span></span>
+			<span></span>
+			<span></span>
 		</div>
+		<div class="responsive-menu">
+		     	<ul>
+				<li><a href="#">HE</a></li>
+				<li><a href="#">PHTOGRAPHIC</a></li>
+				<li><a href="#">CALLIGRAPHY</a></li>
+		       		<li><a href="#">PAINTING</a></li>
+		       		<li><a href="#">THOUGHT</a></li>
+			</ul>
+		</div>
+	</div>
+	<p id="webname">Ishu Chen Art Adventure</p>
+</header>
+		<div id="contanier" class="swiper-frame">
+			<a href="#" id="slider"><img src="images/homeswipe2.svg" alt="homeswipe"></a>
+			<p class="center-title">Creation is a pleasant thing to express yourself, like calligraphy is the path to your deep soul.</p>
 		</div>
 		<div id="home-more">
 			<p>Join us - Art in retroperspective</p>
@@ -71,5 +46,12 @@
 	
 <!--   /* --><!-- <h1>Still thinking</h1>
   <p>new level of new start, exciting and terrify.</p> --><!-- */ -->
+	<script>
+	  	jQuery(function($){
+	  		$('.menu-btn').click(function(){
+	  			$('.responsive-menu').toggleClass('expand')
+	  		})
+	  	})
+	</script>
 </body>
 </html>
