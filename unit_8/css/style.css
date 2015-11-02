@@ -16,7 +16,7 @@
 }*/
 
 body {
-  	/*background: url("../images/body-image.jpg") no-repeat center center fixed;
+  /*	background: url("../images/body-image.jpg") no-repeat center center fixed;
   	background-attachment: fixed;
   	background-size: cover;*/
 	margin: 0;
@@ -40,10 +40,7 @@ a {
 	font-size: 1em;
 }
 
-img {
-	width:100%;
-	height: auto;
-}
+
 
 #wrap {
 	width: 100%;
@@ -207,11 +204,19 @@ img {
 	/*background-color: blue;*/
 }
 
+#nav-down {
+	width: 100%;
+	height: 2em;
+	display: block;
+	background-color: #292d35;
+	margin: auto;
+}
+
+
 div #home-more {
 	width: 100%;
-/*	background-color: #4c5365;*/
 	background-color: #292d35;
-	height: 5em;
+	height: 4em;
 	position: relative;
 	letter-spacing: 1px;
   	text-align: center;
@@ -224,44 +229,35 @@ div #home-more p{
 	margin: 0;
     color: rgba(256, 256, 256, 0.8);
     font-family: 'Lato', sans-serif;
-  	font-weight: 300;
+  	font-weight: 400;
 	text-transform: uppercase;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
+	padding-top: 5px;
+	/*padding-bottom: 5px;*/
+    display: block;
+    background: #292d35;
+    width: 100%;
 
 }
-
-@media only screen and (max-width: 800px) {
-	#navbar {
-	/*	display:none;*/
-		display: -webkit-box;
-		display: -moz-box;
-		-webkit-box-orient: vertical;
-		-moz-box-orient: vertical;
-	}
-	#slider {
-		display:none;
-	}
-	.center-title {
-		color:#eb7260;
-		margin-top: 100px;
-	}
-	#slider {
-		margin-top: 0;
-	}
 	
 
 @media only screen and (max-width: 800px) {
 	#navbar {
-	width: 100%;
-	display: -webkit-box;
-	display: -moz-box;
-	-webkit-box-orient: vertical;
-	-moz-box-orient: vertical;
-  	background: red;
+		width: 100%;
+		display: -webkit-box;
+		display: -moz-box;
+		-webkit-box-orient: vertical;
+		-moz-box-orient: vertical;
+	  	background: red;
+	}
+	.center-title {
+		color:#eb7260;
+		text-align: left;
+		margin-top: 150px;
+	}
+
+	#slider {
+		display:none;
+		margin-top: 150px;
 	}
 
   .box {
@@ -279,7 +275,7 @@ div #home-more p{
 	  margin: 0;
 	  padding: 10px;
       width:100%;
-}
+	}
   
 }
 
