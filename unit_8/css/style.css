@@ -19,7 +19,10 @@ body {
   	font-size: 16px;
  /* 	overflow: hidden;*/
 }
-
+header {
+	background:#fff;
+	transition-duration:.5s;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -102,11 +105,14 @@ z-index: 99;
 }
  
 .responsive-menu{
-display: none;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:-1;
 }
  
 .expand {
-display: block !important;
+	margin-top:5em;
 }
 
 
