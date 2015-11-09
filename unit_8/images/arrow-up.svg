@@ -8,5 +8,5 @@
 	 x="0px" y="0px" width="31px" height="16px" viewBox="0 0 31 16" enable-background="new 0 0 31 16" xml:space="preserve">
 <defs>
 </defs>
-<path fill="#FFFFFF" d="M31.106,0.912L15.553,16.465L0,0.912L0.912,0l14.641,14.641L30.194,0L31.106,0.912z"/>
+<path fill="#FFFFFF" d="M0,15.553L15.552,0l15.553,15.553l-0.912,0.912L15.552,1.824L0.912,16.465L0,15.553z"/>
 </svg>

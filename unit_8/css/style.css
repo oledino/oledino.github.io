@@ -10,105 +10,50 @@
 	box-sizing: border-box;
  }
 
-/*html {  
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.1px;
-}*/
 
 body {
-  /*	background: url("../images/body-image.jpg") no-repeat center center fixed;
-  	background-attachment: fixed;
-  	background-size: cover;*/
 	margin: 0;
   	padding: 0;
   	background-color: white;
   	display: block;
   	font-size: 16px;
-  /*	overflow: hidden;*/
+  	overflow: hidden;
 }
 
-footer {
-	/*background-color: yellow;*/
-	display: block;
-	width: 100%;
-	height: 100px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-a {
+
+
+.responsive-menu a {
 	color: white;
-	text-decoration: none;
-	font-size: 1em;
-}
-
-
-
-#wrap {
-	width: 100%;
-	display: block;
-	box-sizing: border-box;
-/*	background-color: pink;*/
-}
-
-#navs {
-	width: 100%;
-	margin: auto;
-	display: block;
-/*	background-color: red;*/
-}
-
-#navbar {
-  	width: 100%;
-	display: -webkit-box;
-	display: -moz-box;
-	-webkit-box-orient: horizontal;
-	-moz-box-orient: horizontal;
-  	background: red;
-}
-.box {
-/*  	background: #444b5d;*/
-  	background: #eb7260;
-	margin: 0;
-	padding: 10px;
-	width:20%;
+	float:left;
 	font-family: 'Lato', sans-serif;
-  	font-weight: 300;
+	font-weight: 300;
 	letter-spacing: 0.5px;
+	text-decoration: none;
 	text-align: center;
-	vertical-align: middle;
-	line-height: 3em;
+	font-size: 1em;
+	width: 20%;
+	padding: 30px;
+	background-color: #f39355;
 }
-  
-/*.menu1 {
-  background: #444b5d;
-}
-.menu2 {
-  background: #444b5d;
-}
-.menu3 {
-  background: #444b5d;
-}
-.menu4 {
-  background: #444b5d;
-}
-.menu5 {
-  background: #444b5d;
-}*/
 
 
-#logobar {
-	background-color: #fff;
-	width: 100%;
-  	height: 100px;
-  	margin: 0;
+.logo {
+	height: 100px;
 	display: block;
 }
 
-
-#logo {
-/*	background-color: blue;*/
-	float: left;
-	display: block;
+.logo a{
+	float:left;
+	padding: 10px;
 }
+
+
 
 #webname {
 	font-family: 'Stoke', serif; 
@@ -130,47 +75,10 @@ a {
 	content: "";
 	clear: both;
 }
-/*
-#mobile-nav {
-	background-color: orange;
-	float: left;
-	margin-left: 100px;
-	padding-top: 40px;
-	padding-bottom: 20px;
-	padding-right: 200px;
-}
-.menu-btn div {
-	position: absolute;
-	left: 100%;
-	top: 64%;
-	padding-right: 8px;
-	margin-top: -0.50em;
-	line-height: 1.2;
-	font-size: 18px;
-	font-weight: 200;
-	vertical-align: middle;
-	z-index: 99;
-}
- 
-.menu-btn span {
-	display: block;
-	width: 30px;
-	height: 4px;
-	margin: 3px 0;
-	background: #eb7260;
-	z-index: 99;
-}
- 
-.responsive-menu{
-	display: none;
-}
- 
-.expand {
-	display: block !important; 
-}*/
-.mobile-nav {
+
 	
-}
+
+
 .menu-btn div {
 position: absolute;
 left: 100%;
@@ -186,10 +94,10 @@ z-index: 99;
  
 .menu-btn span {
 display: block;
-width: 19px;
-height: 3px;
+width: 30px;
+height: 4px;
 margin: 4px 0;
-background: rgb(0,0,0);
+background: #f39355;
 z-index: 99;
 }
  
@@ -203,170 +111,65 @@ display: block !important;
 
 
 #contanier {
-	background-color: #fff;
-	/*background-color: #fff;*/
-/*	background-color: black;*/
 	width:100%;
-	height: 600px;
+	height: 500px;
 	display: block;
-	margin: 0;
-	text-align: center;
-	vertical-align: center;
+	padding-top: 150px;
+	padding-bottom:200px;
+	overflow: hidden;
 }
 
 #slider {
-/*	background-color: red;*/
-	height: auto;
-	float: right;
-	margin-top: 200px;
+	display: inline-block;
+	float:right;
 }
+
+#slider a{
+	padding-left: 20px;
+}
+
+
 
 .center-title {
 	font-family: 'Josefin Slab', serif;
   	font-size: 2em;
   	line-height: 1.5em;
-  	height: auto;
-  	margin-top: 200px;
-  	margin-right: 40px;
   	color:#241f21;
-	float: right;
-	text-align: right;
 	display:block;
 	width: 70%;
-	/*background-color: blue;*/
+	float:right;
+	height: auto;
+	overflow: hidden;
 }
 
-#nav-down {
+
+.nav-down {
 	width: 100%;
-	height: 2em;
+	height: 5em;
 	display: block;
-	background-color: #292d35;
+	
+	background-color: #292d35;/*#444b5d*/
 	margin: auto;
-}
-
-
-div #home-more {
-	width: 100%;
-	background-color: #292d35;
-	height: 4em;
-	position: relative;
-	letter-spacing: 1px;
-  	text-align: center;
-  	vertical-align: middle;
-  	line-height: 1.5em;
-  	vertical-align: center;
-}
-
-div #home-more p{
-	margin: 0;
-    color: rgba(256, 256, 256, 0.8);
-    font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
   	font-weight: 400;
+  	color: white;
+  	line-height: 2em;
 	text-transform: uppercase;
-	padding-top: 5px;
-	/*padding-bottom: 5px;*/
-    display: block;
-    background: #292d35;
-    width: 100%;
-
+	padding: 10px;
+	text-align: center;
 }
+
+
+
+
+
+
+
+	
 	
 
-@media only screen and (max-width: 800px) {
-	#navbar {
-		width: 100%;
-		display: -webkit-box;
-		display: -moz-box;
-		-webkit-box-orient: vertical;
-		-moz-box-orient: vertical;
-	  	background: red;
-	}
-	.center-title {
-		color:#eb7260;
-		text-align: left;
-		margin-top: 150px;
-	}
-
-	#slider {
-		display:none;
-		margin-top: 150px;
-	}
-
-  .box {
-	 /* display: table-cell;
-	  text-align: center;
-	  vertical-align: middle;
-	  line-height: 5em;*/
-	  background: #444b5d;
-	  font-family: 'Lato', sans-serif;
-	  font-weight: 300;
-	  letter-spacing: 0.5px;
-      text-align: center;
-      border-bottom: 0.5px dotted rgba(256,256,256,0.5);
-      border-color: white;
-	  margin: 0;
-	  padding: 10px;
-      width:100%;
-	}
-  
-}
-
-@media only screen and (max-device-width: 480px){ 
-
-   /* //iPhone 6 and iPhone 6+ portrait and landscape*/
-   	#navbar {
-	width: 100%;
-	display: -webkit-box;
-	display: -moz-box;
-	-webkit-box-orient: vertical;
-	-moz-box-orient: vertical;
-  	background: red;
-	}
-
-  .box {
-	 /* display: table-cell;
-	  text-align: center;
-	  vertical-align: middle;
-	  line-height: 5em;*/
-/*	  background: #444b5d;*/
-	  background: #eb7260;
-	  margin: 0;
-	  padding: 30px;
-      width:100%;
-	  font-family: 'Lato', sans-serif;
-	  font-weight: 300;
-	  letter-spacing: 0.5px;
-	  border-bottom: 0.5px dotted rgba(256,256,256,0.3);
-      text-align: center;
-      border-bottom: 1px dotted white;
-      border-color: white;
-}
-	#slider {
-		display:none;
-	}
-	.center-title {
-		color: rgba(0,0,0, .5);
-		margin-top: 40px;
-		text-align: left;
-		font-size: 1.5em;
-	}
-	#webname {
-		display: none;
-	}
-	#contanier {
-	background-color: #fff;
-	/*background-color: #fff;*/
-/*	background-color: black;*/
-	width:100%;
-	height: 350px;
-	display: block;
-	margin: 0;
-	text-align: center;
-	vertical-align: center;
-	}
 
 
-}
 
 
 
