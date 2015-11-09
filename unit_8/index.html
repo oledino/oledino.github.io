@@ -7,29 +7,29 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
-<header>
-	<div class="mobile-nav">
-		<div class="menu-btn" id="menu-btn">
-			<div></div>
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
-		<div class="responsive-menu">
-		     	<ul>
-				<li><a href="#">HE</a></li>
-				<li><a href="#">PHTOGRAPHIC</a></li>
-				<li><a href="#">CALLIGRAPHY</a></li>
+	<nav class="responsive-menu">
+	     	<ul>
+			<li><a href="#">HE</a></li>
+			<li><a href="#">PHTOGRAPHIC</a></li>
+			<li><a href="#">CALLIGRAPHY</a></li>
 		       	<li><a href="#">PAINTING</a></li>
 		       	<li><a href="#">THOUGHT</a></li>
-			</ul>
+		</ul>
+	</nav>
+	<header>
+		<div class="mobile-nav">
+			<div class="menu-btn" id="menu-btn">
+				<div></div>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
 		</div>
-	</div>
-	<div class="logo">
-	<a href="#"><img src="images/logo.jpg" alt="ishu-logo"></a>
-	<p id="webname">Ishu Chen Art Adventure</p>
-	</div>
-</header>
+		<div class="logo">
+		<a href="#"><img src="images/logo.jpg" alt="ishu-logo"></a>
+		<p id="webname">Ishu Chen Art Adventure</p>
+		</div>
+	</header>
 		<div id="contanier" class="swiper-frame">
 			<a href="#" id="slider"><img src="images/homeswipe2.svg" alt="homeswipe"></a>
 			<p class="center-title">Creation is a pleasant thing to express yourself, like calligraphy is the path to your deep soul.</p>
@@ -52,7 +52,7 @@
 	<script>
 	  	jQuery(function($){
 	  		$('.menu-btn').click(function(){
-	  			$('.responsive-menu').toggleClass('expand')
+	  			$('header').toggleClass('expand')
 	  		})
 	  	})
 	</script>
