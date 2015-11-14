@@ -5,8 +5,7 @@
 ]>
 <svg version="1.1"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="107px" height="96px" viewBox="-18.595 -10.12 107 96" enable-background="new -18.595 -10.12 107 96"
-	 xml:space="preserve">
+	 x="0px" y="0px" width="107px" height="96px" viewBox="0 0 107 96" enable-background="new 0 0 107 96" xml:space="preserve">
 <defs>
 </defs>
 <path fill="#FF9900" d="M2.28,0l38.878,38.878L2.28,77.757L0,75.477l36.598-36.598L0,2.28L2.28,0z"/>
