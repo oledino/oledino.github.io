@@ -20,17 +20,19 @@ body {
   	display: block;
   	font-size: 16px;
   	height: 100%;
-  	overflow: hidden;
+/*  	overflow: hidden;*/
 }
 header {
-	background:#fff;
+	background: white;
 	transition-duration:.5s;
 	position: relative;
+	display: block;
+	height: 90px;
 	-webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
      -moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
           box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
 }
-ul {
+ul li{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -52,6 +54,8 @@ ul {
 	font-size: 1.2em;
 	width: 20%;
 	padding: 25px;
+	overflow: hidden;
+	
 	background-color:#1c1c1c;/*#f39355*/
 }
 
@@ -142,17 +146,20 @@ z-index: 99;
 	width:100%;
 	height: 700px;
 	display: block;
-	padding-top: 250px;
+	padding-top: 220px;
 	padding-bottom:200px;
 	overflow: hidden;
 }
 
 #slider {
+	padding-top: 30px;
 	display: inline-block;
 	float:right;
+	margin-left: 50px;
 }
 
 #slider a{
+	
 	padding-left: 20px;
 	padding-right: 50px;*/
 }
@@ -195,8 +202,139 @@ z-index: 99;
 
 }
 
+@media only screen and (max-width: 800px) {
+	header {
+	background:#fff;
+	transition-duration:.5s;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
+     -moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
+          box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
+}
+	
+
+.responsive-menu a {
+		float:none;
+		display: block;
+		width:100%;
+		color: #a8a8a8;
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 400;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-align: center;
+		font-size: 1.2em;
+		border-bottom: 1px dotted gray;
+		background-color:#1c1c1c;/*#f39355*/
+		padding: 45px;
+	}
+
+	#contanier {
+		width:100%;
+		height: 700px;
+		display: block;
+		padding-bottom:200px;
+		overflow: hidden;
+		background: #fff;
+		margin: 0;
+}
+
+	.center-title {
+		float: left;
+		margin-left: 60px;
+		color:#ff9900;
+		text-align: center;
+		margin-top: 0;
+		width: 80%;
+		overflow: hidden;
+		display: block;
+	}
+
+	.expand {
+		margin-top: 34em;
+	}
+
+	#slider {
+		display:none;
+	} 	
+  
+}
 
 
+@media only screen and (max-device-width: 480px){ 
+
+    /*/iPhone 6 and iPhone 6+ portrait and landscape*/
+   
+
+
+	header {
+		background:#fff;
+		transition-duration:.5s;
+		position: relative;
+		overflow: hidden;
+		-webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
+	     -moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
+	          box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
+	}
+	
+
+	.responsive-menu a {
+		float:none;
+		display: block;
+		width:100%;
+		color: #a8a8a8;
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 400;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-align: center;
+		font-size: 1.2em;
+		border-bottom: 1px dotted gray;
+		background-color:#1c1c1c;/*#f39355*/
+		padding: 45px;
+	}
+
+	/*.mobile-nav {
+		float: left;
+		padding-left: 40px;
+
+	}*/
+
+	#contanier {
+		width:100%;
+		height: 700px;
+		display: block;
+		padding-bottom:200px;
+		overflow: hidden;
+		background: #fff;
+		margin: 0;
+}
+
+	.center-title {
+		float: left;
+		margin-left: 60px;
+		color:#ff9900;
+		text-align: center;
+		margin-top: 0;
+		width: 80%;
+		overflow: hidden;
+		display: block;
+	}
+
+	.expand {
+		margin-top: 34em;
+	}
+
+	#slider {
+		display:none;
+	} 	
+  
+
+	
+
+
+}
 
 
 
