@@ -332,6 +332,7 @@ ul li{
 	}*/
 
 	.center-title {
+
 		float: left;
 		color:#ff9900;
 		text-align: center;
@@ -339,7 +340,10 @@ ul li{
 		width: 80%;
 		overflow: hidden;
 		display: block;
+		text-align: left;
+		font-size: 1em;
 	}
+	
 
 	.expand {
 		margin-top: 34em;
