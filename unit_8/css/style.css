@@ -238,6 +238,7 @@ ul li{
 		overflow: hidden;
 		background: #fff;
 		margin-top: 0;
+		background-color:red;
 }
 
 	.center-title {
@@ -299,7 +300,7 @@ ul li{
 
 	.mobile-nav {
 		float: right;
-		padding: 0;
+		padding-top: 30px;
 
 
 	}
@@ -315,7 +316,7 @@ ul li{
 		display: block;
 		overflow: hidden;
 		background: #fff;
-		margin-top: 0;
+		margin-top: 5px;
 		/*padding-top: px;*/
 		padding-bottom:300px;
 }
@@ -323,7 +324,7 @@ ul li{
 	#webname {
 		font-family: 'Stoke', serif; 
 		font-weight: 400; 
-		font-size: 0.5em;
+		font-size: 0.9em;
 		color:#5f5f5f;
 		width: 150px;
 		display:block;
@@ -342,7 +343,7 @@ ul li{
 		width: 70%;
 		overflow: hidden;
 		display: block;
-		text-align: lef;
+		text-align: left;
 		font-size: 1.5em;
 	}
 	
