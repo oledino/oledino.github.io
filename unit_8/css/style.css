@@ -295,7 +295,7 @@ ul li{
 		font-size: 1.2em;
 		border-bottom: 1px dotted gray;
 		background-color:#1c1c1c;/*#f39355*/
-		padding: 26px;
+		padding: 25px;
 	}
 
 	.mobile-nav {
@@ -337,7 +337,7 @@ ul li{
 	
 
 	.expand {
-		margin-top: 20em;
+		margin-top: 22em;
 	}
 
 	#slider {
