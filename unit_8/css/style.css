@@ -299,8 +299,8 @@ ul li{
 	}
 
 	.mobile-nav {
-		float: right;
-		padding-top: 30px;
+		float: left;
+		padding: 30px;
 
 
 	}
@@ -312,19 +312,19 @@ ul li{
 
 	#contanier {
 		width:100%;
-		height: 400px;
+		height: 700px;
 		display: block;
 		overflow: hidden;
 		background: #fff;
 		margin-top: 5px;
-		/*padding-top: px;*/
+		padding-top: 200px;
 		padding-bottom:200px;
 }
 
 	#webname {
 		font-family: 'Stoke', serif; 
 		font-weight: 400; 
-		font-size: 0.9em;
+		font-size: 1em;
 		color:#5f5f5f;
 		width: 150px;
 		display:block;
@@ -349,7 +349,7 @@ ul li{
 	
 
 	.expand {
-		margin-top: 34em;
+		margin-top: 30em;
 	}
 
 	#slider {
