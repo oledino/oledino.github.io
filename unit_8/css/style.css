@@ -238,7 +238,7 @@ ul li{
 		overflow: hidden;
 		background: #fff;
 		margin-top: 0;
-		background-color:red;
+		/*background-color:red;*/
 }
 
 	.center-title {
@@ -318,7 +318,7 @@ ul li{
 		background: #fff;
 		margin-top: 5px;
 		/*padding-top: px;*/
-		padding-bottom:300px;
+		padding-bottom:200px;
 }
 
 	#webname {
