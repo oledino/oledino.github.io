@@ -87,7 +87,7 @@ ul li{
 	font-weight: 400; 
 	font-size: 0.9em;
 	color:#5f5f5f;
-	width: 250px;
+	width: 200px;
 	display:block;
 	float: left;
 	margin-left: 20px;
@@ -349,7 +349,7 @@ ul li{
 
 .menu-btn span {
 	display: block;
-	width: 19px;
+	width: 25px;
 	height: 4px;
 	margin: 4px 0;
 
@@ -366,7 +366,7 @@ ul li{
 		width: 90%;
 		overflow: hidden;
 		display: block;
-		font-size: 2em;
+		font-size: 1.8em;
 	}
 	
 
