@@ -24,6 +24,7 @@ body {
   	height: 100%;
   	overflow: hidden;
 }
+
 header {
 	background: white;
 	transition-duration:.5s;
@@ -202,6 +203,7 @@ ul li{
 
 }
 
+
 @media only screen and (max-width: 800px) {
 	header {
 	background:#fff;
@@ -229,6 +231,12 @@ ul li{
 		background-color:#1c1c1c;/*#f39355*/
 		padding: 45px;
 	}
+
+.mobile-nav {
+	float: right;
+	padding: 30px;
+
+}
 
 	#contanier {
 		width:100%;
@@ -321,12 +329,11 @@ ul li{
 		width: 150px;
 		display:block;
 		float: left;
-		margin-left: 20px;
+		margin-left: 5px;
 		padding-top: 35px;
 		padding-bottom: 20px;
 }
 
-	}
 
 	#contanier {
 		width:100%;
@@ -346,8 +353,9 @@ ul li{
 		margin-left: 30px;
 		color:#ff9900;
 		text-align: left;
+		line-height: 1em;
 		margin-top: 0;
-		width: 70%;
+		width: 80%;
 		overflow: hidden;
 		display: block;
 		text-align: center;
