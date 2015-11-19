@@ -298,15 +298,33 @@ ul li{
 		padding: 25px;
 	}
 
+	.logo a{
+		float:left;
+		padding: 5px;
+	/*	background: red;*/
+}
+
 	.mobile-nav {
-		float: right;
+		float: left;
 		padding: 25px;
 
 
 	}
 
 	#webname {
-		display: none;
+		/*display: none;*/
+
+		font-family: 'Stoke', serif; 
+		font-weight: 400; 
+		font-size: 0.8em;
+		color:#5f5f5f;
+		width: 150px;
+		display:block;
+		float: left;
+		margin-left: 20px;
+		padding-top: 35px;
+		padding-bottom: 20px;
+}
 
 	}
 
@@ -332,13 +350,13 @@ ul li{
 		width: 70%;
 		overflow: hidden;
 		display: block;
-		text-align: left;
-		font-size: 1.5em;
+		text-align: center;
+		font-size: 2em;
 	}
 	
 
 	.expand {
-		margin-top: 24em;
+		margin-top: 23em;
 	}
 
 	#slider {
