@@ -349,6 +349,13 @@ ul li{
 		padding-bottom:200px;
 }
 
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 4px;
+	margin: 4px 0;
+
+}
 
 	.center-title {
 
@@ -358,10 +365,9 @@ ul li{
 		text-align: left;
 		line-height: 1.25em;
 		margin-top: 0;
-		width: 80%;
+		width: 90%;
 		overflow: hidden;
 		display: block;
-		text-align: center;
 		font-size: 2em;
 	}
 	
