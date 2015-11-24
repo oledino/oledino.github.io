@@ -75,6 +75,12 @@ ul{
 }
 
 
+/*.logo {
+	
+	display: block;
+	border-top: 5px solid #1c1c1c;
+}*/
+
 .logo a{
 	float:left;
 	padding: 20px 0 25px 60px;
@@ -154,10 +160,19 @@ ul{
 	padding-top: 220px;
 	padding-bottom:200px;
 	background: #f2f2f2;
+/*	z-index: 2;*/
 	position: relative;
 	overflow: hidden;
 	margin: 0;
+/*	text-align: center;*/
+	/*background: green;*/
 }
+
+
+
+
+
+
 
 
 
@@ -168,6 +183,11 @@ ul{
 	margin-right: 70px;
 	margin-right: 30px;
 }
+
+
+
+
+
 
 .center-title {
 	font-family: 'Josefin Slab', serif;
@@ -292,6 +312,27 @@ font-family: 'Josefin Sans', sans-serif;
     padding-bottom: 50%;
   }
 }
+@media screen and (max-width: 600px) {
+  .my_container ul .block {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}
+/*@media screen and (max-width: 360px) {
+  .my_container ul .block {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}
+.my_container ul .block img {
+  max-width: none;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}*/
+
+
 
 @media only screen and (max-width: 800px) {
 	header {
@@ -410,49 +451,48 @@ header:hover {
 
     /*/iPhone 6 and iPhone 6+ portrait and landscape*/
    
+header {
+	background:#fff;
+	transition-duration:.5s;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+	
 	.responsive-menu a {
 		float:none;
 		display: block;
 		width:100%;
-		color: #a8a8a8;
+		color: #d9d9d9;
 		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 400;
 		letter-spacing: 1px;
 		text-decoration: none;
-		text-align: center;
+		text-align: center;a
 		font-size: 1.2em;
 		border-bottom: 1px dotted gray;
-		background-color:#1c1c1c;/*#f39355*/
-		padding: 25px;
+		background-color:rgba(0,0,0,0.8);/*#f39355*/
+		padding: 45px;
 	}
 
+
+	
 	.logo a{
 		float:left;
-		padding: 5px;
-	/*	background: red;*/
+		padding: 20px 0 25px 30px;
 }
 
 	.mobile-nav {
-		float: left;
-		padding-top: 25px;
-		padding-bottom: 25px;
-		padding-left: 0;
-		padding-right: 10px;
-	}
+		float: right;
+		padding: 55px 40px 60px 0;
+}
+
+	
 
 	#webname {
 		display: none;
 
-	/*	font-family: 'Stoke', serif; 
-		font-weight: 400; 
-		font-size: 0.8em;
-		color:#5f5f5f;
-		width: 200px;
-		display:block;
-		float: left;
-		margin-left: 0;
-		padding-top: 35px;
-		padding-bottom: 20px;*/
 }
 
 
@@ -462,9 +502,7 @@ header:hover {
 		display: block;
 		overflow: hidden;
 		background: #f2f2f2;
-/*		margin-top: 5px;*/
-		padding-top: 50px;
-		padding-bottom:200px;
+
 }
 
 
@@ -472,16 +510,24 @@ header:hover {
 	.center-title {
 
 		float: left;
-		margin-left: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
 		color:#666;
 		text-align: left;
 		line-height: 1.25em;
 		margin-top: 0;
-		width: 90%;
+		width: 100%;
 		overflow: hidden;
 		display: block;
-		font-size: 1.8em;
+		font-size: 1.75em;
 	}
+
+	.center-title:first-letter {
+	
+		font-size: 2.5em;
+	  	font-weight: 400;
+	  	color:#241f21;
+}
 	
 
 	.expand {
