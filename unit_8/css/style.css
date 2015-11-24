@@ -459,6 +459,15 @@ header {
 	overflow: hidden;
 }
 
+	/*header {
+		background:#fff;
+		transition-duration:.5s;
+		position: relative;
+		overflow: hidden;
+		-webkit-box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
+	     -moz-box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
+	          box-shadow: 0px 10px 7px rgba(0,0,0,0.2), 0px 20px 10px rgba(0,0,0,0.1);
+	}*/
 	
 	.responsive-menu a {
 		float:none;
@@ -476,19 +485,46 @@ header {
 		padding: 45px;
 	}
 
+	/*.responsive-menu a {
+		float:none;
+		display: block;
+		width:100%;
+		color: #a8a8a8;
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 400;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-align: center;
+		font-size: 1.2em;
+		border-bottom: 1px dotted gray;
+		background-color:#1c1c1c;/*#f39355*/
+	/*	padding: 25px;*/
+	/*}*/
 
 	
 	.logo a{
 		float:left;
-		padding: 20px 0 25px 30px;
+		padding: 20px 0 15px 30px;
 }
 
 	.mobile-nav {
 		float: right;
-		padding: 55px 40px 60px 0;
+		padding: 55px 10px 60px 0;
 }
 
-	
+	/*.logo a{
+		float:left;
+		padding: 5px;
+	/*	background: red;*/
+
+
+	/*.mobile-nav {
+		float: left;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 0;
+		padding-right: 10px;
+	}*/
 
 	#webname {
 		display: none;
