@@ -487,11 +487,11 @@ ul{
 	
 	.logo a{
 		float:left;
-		padding: 20px 0 15px 30px;
+		padding: 20px 15px 10px;
 	}
 
 	.mobile-nav {
-		float: left;
+		float: right;
 		padding-right: 20px;
 	}
 
@@ -502,9 +502,9 @@ ul{
 
 	#contanier {
 		width:100%;
-		height: 20em;
+		height: 10em;
 		display: block;
-		padding-bottom: 400px;
+		padding-bottom: 100px;
 		background: #f2f2f2;
 		position: relative;
 		overflow: hidden;
