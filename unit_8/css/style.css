@@ -242,7 +242,7 @@ ul{
     transition: 0.8s ease;
 }
 
-.my_container ul .block:hover span, .block:focus span {
+.my_container ul li.block:hover span, li.block.hover{
   	height: 50%;
 }
 
