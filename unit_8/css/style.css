@@ -465,7 +465,7 @@ ul{
 		position: relative;
 		display: block;
 		overflow: hidden;
-		height: 5em;
+		height: 6em;
 	}
 
 	
@@ -504,7 +504,7 @@ ul{
 
 	#contanier {
 		width:100%;
-		height: 20em;
+		height: 18em;
 		display: block;
 		padding-top: 25px;
 		padding-bottom: 100px;
