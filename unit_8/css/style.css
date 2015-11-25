@@ -482,14 +482,14 @@ ul{
 		font-size: 1.2em;
 		border-bottom: 1px dotted gray;
 		background-color:rgba(0,0,0,0.8);/*#f39355*/
-		padding: 35px;
+		padding: 30px;
 	}
 
 
 	
 	.logo a{
 		float:left;
-		padding: 20px 0 15px 10px;
+		padding: 10px 0 15px 10px;
 	}
 
 	.mobile-nav {
@@ -536,7 +536,7 @@ ul{
 	}
 
 	.expand {
-		margin-top: 28em;
+		margin-top: 25em;
 	}
 
 	#slider {
